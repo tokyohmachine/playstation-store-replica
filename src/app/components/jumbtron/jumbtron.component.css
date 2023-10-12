@@ -1,0 +1,58 @@
+.jumbtron {
+  padding: 60px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 10px -15px #111;
+}
+.sub-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-bar > .sub-title {
+  margin-top: 20px;
+  flex: 0.9;
+}
+
+.sub-title > h2 {
+  font-size: 20px;
+  color: gray;
+  margin: 0 0 30px 50px;
+  font-weight: normal;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.paragraph p {
+  color: gray;
+  font-size: 13px;
+
+}
+.sec_button {
+  display: flex;
+  align-items: center;
+  flex: 0.2;
+
+}
+.sec-button > button {
+  background-color: rgb(0,84,153);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.sec-button > button> a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+
+

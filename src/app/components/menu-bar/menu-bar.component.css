@@ -1,0 +1,116 @@
+.menu_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 20px;
+
+  /* left: 0;
+  position: fixed;
+  top: -41px;
+  transform: translateY(41); */
+  z-index: 10;
+}
+.play-logo > img {
+  margin-top: 20px;
+}
+
+.menu_list_top{
+  margin-top: 20px;
+  flex: 0.9;
+}
+.menu_list_top > ul > li {
+  margin-left: 10px;
+}
+.menu_list_top > ul > li > a {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray
+}
+
+.menu_list_top>ul>li>a>img {
+  display: flex;
+  align-items: center;
+  margin: 5px 0 0 5px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.begin_button {
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+  margin-top: 20px;
+}
+.begin_button>button {
+  background-color: rgb(0,84,153);
+  border: none;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+.begin_button>button>a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lupa_icon {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+}
+.lupa_icon>img {
+  margin-top: 20px
+}
+/* second bar */
+.menu-bar_container {
+  display: flex;
+  flex-direction: row;
+  z-index: 998;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 15px 10px -15px #111;
+  position: fixed;
+  /* left: 0;
+  top: 0;
+  transform: translateY(41) */
+
+}
+.menu_logo {
+  flex: 0.5;
+}
+.menu_logo, .play-logo {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu_list  {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.menu_list  >ul > li {
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+.menu_list > ul > li > a {
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu_list > ul > li:hover {
+  background-color: rgb(231, 224, 224);
+}
